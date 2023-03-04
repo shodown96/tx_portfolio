@@ -1,0 +1,5 @@
+export { default as BehanceSVG } from './Behance'
+export { default as GoSVG } from './Go'
+export { default as InstagramSVG } from './Instagram'
+export { default as LinkedInSVG } from './LinkedIn'
+export { default as TwitterSVG } from './Twitter'

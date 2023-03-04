@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Lexend Deca";
+    font-weight: 300;
+}
+
+.navbar {
+    box-shadow: -2px 3px 90px -20px rgba(0, 0, 0, 0.25) !important;
+}
+
+.navbar-brand {
+    font-family: "Lexend Deca";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363941;
+}
+
+.bg-gradient-left {
+    background-image: url("../../public/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-gradient-right {
+    background: linear-gradient(
+        180deg,
+        #ff9a66 0%,
+        rgba(64, 108, 183, 0.59) 240.28%
+    );
+    background-position: center;
+    background-size: cover;
+}
+
+.w-70p {
+    width: 70%;
+}
+.w-65p {
+    width: 65%;
+}
+
+.tamara-ai {
+    /* height: 300px;
+    width: 300px */
+    max-width: 90%;
+}
+.h-500 {
+    height: 500px;
+}
+.h-350 {
+    height: 350px;
+}
+
+.bg-gradient-dark {
+    background: linear-gradient(250.89deg, #2d3034 -3.43%, #2e2e2e 115.34%);
+}
+
+.project-size {
+    width: 570px;
+    height: 570px;
+}
+
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .project-size {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .project-size {
+        width: 250px;
+        height: 250px;
+    }
+} */
