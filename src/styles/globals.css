@@ -24,7 +24,7 @@ body {
 }
 
 .bg-gradient-left {
-    background-image: url("../../public/background.png");
+    background-image: url("/background.png");
     background-position: center;
     background-size: cover;
 }
@@ -75,14 +75,22 @@ body {
 
 @media screen and (max-width: 768px) {
     .project-size {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 }
 
-/* @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 480px) {
+    .project-size {
+        width:330px;
+        height:330px;
+    }
+}
+
+@media screen and (max-width: 360px) {
     .project-size {
         width: 250px;
         height: 250px;
     }
-} */
+}
