@@ -6,7 +6,7 @@ import Icon from './Icon'
 
 function Projects() {
     return (
-        <div className='flex flex-wrap items-center justify-center md:justify-between gap-10 mt-10 mb-10'>
+        <div className='flex flex-wrap items-center justify-center md:justify-betwee gap-10 my-10'>
             {data.projects.map((project, i) => (
                 <div key={i} className="rounded-3xl overflow-hidden project-size">
                     <div className="project-size p-8 bg-img flex flex-col justify-between" style={{
